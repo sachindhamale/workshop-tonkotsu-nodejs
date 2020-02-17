@@ -11,7 +11,7 @@ var mochaAsync = fn => {
 
 describe("Utils", function() {
   describe("greetings", function() {
-    it("Says Hello Ben", function() {
+    it("Says Hello nil", function() {
       assert.equal(utils.greetings("World"), "Hello World 👋👋");
     });
 
